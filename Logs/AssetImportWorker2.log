@@ -1,0 +1,544 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+B:\Unity\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/brayr/Downloads/TowerDefense_9_5/TDTut
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+1535
+Successfully changed project path to: C:/Users/brayr/Downloads/TowerDefense_9_5/TDTut
+C:/Users/brayr/Downloads/TowerDefense_9_5/TDTut
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Refreshing native plugins compatible for Editor in 75.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path B:/Unity/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/brayr/Downloads/TowerDefense_9_5/TDTut/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12029.4013
+Initialize mono
+Mono path[0] = 'B:/Unity/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'B:/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'B:/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: B:/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: B:/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003050 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.605 seconds
+Domain Reload Profiling:
+	ReloadAssembly (605ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (431ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008065 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\brayr\Downloads\TowerDefense_9_5\TDTut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brayr\Downloads\TowerDefense_9_5\TDTut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Domain Reload Profiling:
+	ReloadAssembly (817ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (56.1 KB). Loaded Objects now: 3735.
+Memory consumption went from 112.4 MB to 112.4 MB.
+Total: 2.661100 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.268500 ms  DeleteObjects: 0.062100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124602.788020 seconds.
+  path: Assets/Sprites/Portal/Idle__/blue_idle.png
+  artifactKey: Guid(5caf3bc105dca1c4b927e811307b151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Portal/Idle__/blue_idle.png using Guid(5caf3bc105dca1c4b927e811307b151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6115b549f025ae8cf3715c3f1ba0742') in 0.291012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.215703 seconds.
+  path: Assets/Sprites/Portal/Opens the portal/blue_open.png
+  artifactKey: Guid(8ca2274f3cdedaf4180fa0107cb8835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Portal/Opens the portal/blue_open.png using Guid(8ca2274f3cdedaf4180fa0107cb8835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27da687932058b6bd236d15ae24bcaf2') in 0.009628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.633709 seconds.
+  path: Assets/Sprites/Towers/FireAttack/FireAttack_0000_Layer-164.png
+  artifactKey: Guid(ab3ad306ccc79294a87044b9e53097b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireAttack/FireAttack_0000_Layer-164.png using Guid(ab3ad306ccc79294a87044b9e53097b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af9a73f03ce976692edc09e0356d566') in 0.026554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.561152 seconds.
+  path: Assets/Sprites/Towers/FireAttack/FireAttack_0004_Layer-160.png
+  artifactKey: Guid(7df28427354c2b44dbbc7c8245bac7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireAttack/FireAttack_0004_Layer-160.png using Guid(7df28427354c2b44dbbc7c8245bac7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e253efe4d5397a52ae7db3ed031746f') in 0.026621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Towers/FireAttack/FireAttack_0006_Layer-158.png
+  artifactKey: Guid(e335ae36f4a30fc4f893af549db4f86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireAttack/FireAttack_0006_Layer-158.png using Guid(e335ae36f4a30fc4f893af549db4f86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72adccb7167b8090df819519be04b723') in 0.027536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Towers/FireAttack/FireAttack_0005_Layer-159.png
+  artifactKey: Guid(c3258c6866030d146b52246b8f7164ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireAttack/FireAttack_0005_Layer-159.png using Guid(c3258c6866030d146b52246b8f7164ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443ade7d5a77017b55d34741f763ca5a') in 0.024286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.513501 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0000_Layer-27.png
+  artifactKey: Guid(49d0ca42acfd2704ab51f1851a37a805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0000_Layer-27.png using Guid(49d0ca42acfd2704ab51f1851a37a805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70db33cc748d317411e1de3748dba4d9') in 0.030831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0018_Layer-9.png
+  artifactKey: Guid(757cb869b6ae69242afb4c113360cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0018_Layer-9.png using Guid(757cb869b6ae69242afb4c113360cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01536067fd2016977227b045f727ac04') in 0.023786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0014_Layer-13.png
+  artifactKey: Guid(8a51940155924c14992e4c023bf2966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0014_Layer-13.png using Guid(8a51940155924c14992e4c023bf2966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65a66c4189284f0f35f48a75a871047') in 0.029033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0012_Layer-15.png
+  artifactKey: Guid(ba1dce3aff53f34449df58ab3c45cd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0012_Layer-15.png using Guid(ba1dce3aff53f34449df58ab3c45cd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13f2e8c58823171836040b580053ccb') in 0.024673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0022_Layer-5.png
+  artifactKey: Guid(7e9fa34d11cd03a4f9e3b97b069a1f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0022_Layer-5.png using Guid(7e9fa34d11cd03a4f9e3b97b069a1f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3837aa71d65b6c332dcf7658978fc626') in 0.023924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0023_Layer-4.png
+  artifactKey: Guid(486e5ccfe2307d1418e2b48bab37b596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0023_Layer-4.png using Guid(486e5ccfe2307d1418e2b48bab37b596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ec87f632e382e70f31b75f33922930') in 0.023287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0004_Layer-23.png
+  artifactKey: Guid(e7907c017c170ba4cb0e7c6ebf5250e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0004_Layer-23.png using Guid(e7907c017c170ba4cb0e7c6ebf5250e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c203e1fe9f8277c39564ccc596d6a5') in 0.023792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0013_Layer-14.png
+  artifactKey: Guid(8fc454905e3af0446b78ec0f79998012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0013_Layer-14.png using Guid(8fc454905e3af0446b78ec0f79998012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8127c2381a0a6bb80ad61828f37cb2d') in 0.025640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0017_Layer-10.png
+  artifactKey: Guid(f95b5e984cc3842479366ad3b70d9283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0017_Layer-10.png using Guid(f95b5e984cc3842479366ad3b70d9283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b097877c75afc8971d8ea86042c45c') in 0.023264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0019_Layer-8.png
+  artifactKey: Guid(65ad22fe81936ec48af4335ade02a48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0019_Layer-8.png using Guid(65ad22fe81936ec48af4335ade02a48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07722595ebffede4ece2f3f56996db6d') in 0.023195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0009_Layer-18.png
+  artifactKey: Guid(daa02e2007ac40e40a4f2dc326ac0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/FireIdle/FireIdle_0000s_0009_Layer-18.png using Guid(daa02e2007ac40e40a4f2dc326ac0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9d27e46072d291c6df8f05fa88c439') in 0.024505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.976226 seconds.
+  path: Assets/Sprites/Towers/IceAttack/IceAttack_0000s_0000_Layer-182.png
+  artifactKey: Guid(a8cdf60ad1a93d04aa4378c9149c55bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/IceAttack/IceAttack_0000s_0000_Layer-182.png using Guid(a8cdf60ad1a93d04aa4378c9149c55bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce4cd20c7885cbc30139cad9630ffe3') in 0.027100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Towers/IceAttack/IceAttack_0000s_0006_Layer-176.png
+  artifactKey: Guid(602ba66df0a09a34ebcd2350b555e98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/IceAttack/IceAttack_0000s_0006_Layer-176.png using Guid(602ba66df0a09a34ebcd2350b555e98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3f2da27340d7c3c7b7f78142048612') in 0.026499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Towers/IceAttack/IceAttack_0000s_0003_Layer-179.png
+  artifactKey: Guid(4ae7883af9f7ced4ba730218b9b30971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/IceAttack/IceAttack_0000s_0003_Layer-179.png using Guid(4ae7883af9f7ced4ba730218b9b30971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270f5377f4e78ae4071f83a0bc1fba9f') in 0.023169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.989167 seconds.
+  path: Assets/Sprites/Towers/Icons/FireICon.png
+  artifactKey: Guid(96a6692f01d4fc14295d3420405dd688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/Icons/FireICon.png using Guid(96a6692f01d4fc14295d3420405dd688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e91d1771c39ca614048a1d5d17e22af') in 0.019780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Towers/Icons/StormICon.png
+  artifactKey: Guid(09fe80c5eadd29641bab83652999af68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/Icons/StormICon.png using Guid(09fe80c5eadd29641bab83652999af68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6f257641a16fc8a5abe091a36b84a2') in 0.022102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.428715 seconds.
+  path: Assets/Sprites/Towers/PoisonAttack/PoisonAttack_0000s_0000_Layer-173.png
+  artifactKey: Guid(4d78258a880afd54f9215ce4bd38b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonAttack/PoisonAttack_0000s_0000_Layer-173.png using Guid(4d78258a880afd54f9215ce4bd38b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ff50191ae34f977681afb6e7529429') in 0.023290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Towers/PoisonAttack/PoisonAttack_0000s_0006_Layer-167.png
+  artifactKey: Guid(c312757029a1ad14395f687010899b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonAttack/PoisonAttack_0000s_0006_Layer-167.png using Guid(c312757029a1ad14395f687010899b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b9ab2cb4dfe84eba1b957348ccbfd2') in 0.023770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Towers/PoisonAttack/PoisonAttack_0000s_0004_Layer-169.png
+  artifactKey: Guid(764dbaaa797704743a8bc90da896de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonAttack/PoisonAttack_0000s_0004_Layer-169.png using Guid(764dbaaa797704743a8bc90da896de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfb4808aa493ea6013d6380158c1485') in 0.021151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.740700 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0000_Layer-70.png
+  artifactKey: Guid(36a25e66044095041a2c40a1be76ee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0000_Layer-70.png using Guid(36a25e66044095041a2c40a1be76ee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236d0c13da71c25cfc6472725cf86acf') in 0.021257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0016_Layer-54.png
+  artifactKey: Guid(fb2d93ae11eec6544abcac4e955c2024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0016_Layer-54.png using Guid(fb2d93ae11eec6544abcac4e955c2024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe2f895f53caaee4a65688ea0397ac2') in 0.023842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0019_Layer-51.png
+  artifactKey: Guid(3892dc547c3af3e49baf5a1129dc88fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0019_Layer-51.png using Guid(3892dc547c3af3e49baf5a1129dc88fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86020dd3f3d5bb79d2c62c283cc40161') in 0.021903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0022_Layer-48.png
+  artifactKey: Guid(fd9b1bbc45adc7843b5aad2edde7881d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0022_Layer-48.png using Guid(fd9b1bbc45adc7843b5aad2edde7881d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1e8bd27bf0acf7ccb45d96e4267491') in 0.022482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0013_Layer-57.png
+  artifactKey: Guid(2eab4c57ee4c1cb44837110a493922d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0013_Layer-57.png using Guid(2eab4c57ee4c1cb44837110a493922d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499e6700918010a6480e88f15f19ee52') in 0.023894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0042_Layer-28.png
+  artifactKey: Guid(1a088d0235447ee4e996fb2d2e169ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0042_Layer-28.png using Guid(1a088d0235447ee4e996fb2d2e169ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af8aa1e27f33c42b9e7e180b7a0084f') in 0.021188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0012_Layer-58.png
+  artifactKey: Guid(00932d4d6da3bb94c8a5fab98f41f68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0012_Layer-58.png using Guid(00932d4d6da3bb94c8a5fab98f41f68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567b94418eea039d23545c8b8917b42c') in 0.022482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0009_Layer-61.png
+  artifactKey: Guid(a057e7c7fda0f81439d92823a7c209ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0009_Layer-61.png using Guid(a057e7c7fda0f81439d92823a7c209ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1301d6016c2ea466f029cc21b58bc5a2') in 0.019998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0031_Layer-39.png
+  artifactKey: Guid(2c44b547a5e9bd34587d03e9a969f49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0031_Layer-39.png using Guid(2c44b547a5e9bd34587d03e9a969f49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91226619f25c1e0652185f0859c9687c') in 0.021256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0034_Layer-36.png
+  artifactKey: Guid(ba958471510970143a304a71d6d07546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0034_Layer-36.png using Guid(ba958471510970143a304a71d6d07546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f647a4933f920ba07f6ec65775d841') in 0.024414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0005_Layer-65.png
+  artifactKey: Guid(234f9668b25726342963e876f40a2c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0005_Layer-65.png using Guid(234f9668b25726342963e876f40a2c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b86baee281f2e5861e003b3d95469b') in 0.024584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0039_Layer-31.png
+  artifactKey: Guid(d114d4a47a489c34e803050bc3bbb15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0039_Layer-31.png using Guid(d114d4a47a489c34e803050bc3bbb15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b45b6f1c23914e48c94de28e809013') in 0.024079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0020_Layer-50.png
+  artifactKey: Guid(7418c64e0d519a440a6777eff3740165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0020_Layer-50.png using Guid(7418c64e0d519a440a6777eff3740165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86decc5f00c39e0461030d6fb5fc40f5') in 0.023454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0004_Layer-66.png
+  artifactKey: Guid(428189fa9d41ed446b0e74ad526f8cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/PoisonIdle/PoisonIdle_0004_Layer-66.png using Guid(428189fa9d41ed446b0e74ad526f8cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ef99e83192309cc865cc2ed07f5a43') in 0.025118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078014 seconds.
+  path: Assets/Sprites/Towers/Projectiles/fire.png
+  artifactKey: Guid(bb0a290f8116e434c88c89c7f98c3fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/Projectiles/fire.png using Guid(bb0a290f8116e434c88c89c7f98c3fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae763e333b01a578071c892a5a193454') in 0.014757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Towers/Projectiles/poison.png
+  artifactKey: Guid(febda983f3d397643957c8a49f0f9da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/Projectiles/poison.png using Guid(febda983f3d397643957c8a49f0f9da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712c3dabb2ce21cf3e2415af8b0a15a3') in 0.013002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.853141 seconds.
+  path: Assets/Sprites/Towers/StormAttack/StormAttack_0000_Layer-191.png
+  artifactKey: Guid(347318816780e824ea511deb80c0f57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormAttack/StormAttack_0000_Layer-191.png using Guid(347318816780e824ea511deb80c0f57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aaa3492c5dfe6357c3840bab4833c4e') in 0.019588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.439518 seconds.
+  path: Assets/Sprites/Towers/StormAttack/StormAttack_0004_Layer-187.png
+  artifactKey: Guid(689ebe59bb3d8954cb2b871f70a4662f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormAttack/StormAttack_0004_Layer-187.png using Guid(689ebe59bb3d8954cb2b871f70a4662f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1ad13333d3cd2919e9767ecb095beb') in 0.021735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Towers/StormAttack/StormAttack_0005_Layer-186.png
+  artifactKey: Guid(af2cb20b4fb730848bf0fe7b68e02ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormAttack/StormAttack_0005_Layer-186.png using Guid(af2cb20b4fb730848bf0fe7b68e02ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd370516f781451172f950bf036336a') in 0.020790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Towers/StormAttack/StormAttack_0002_Layer-189.png
+  artifactKey: Guid(9c4e0775f413fc243afc2c56d22daa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormAttack/StormAttack_0002_Layer-189.png using Guid(9c4e0775f413fc243afc2c56d22daa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d95748aa380a32c99899051d79fcd5') in 0.022313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.281261 seconds.
+  path: Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0000_Layer-155.png
+  artifactKey: Guid(77966d3da859bb544affdc6559ed5c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0000_Layer-155.png using Guid(77966d3da859bb544affdc6559ed5c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa8d72306104260cf1682bb32c9c50c') in 0.023099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0005_Layer-150.png
+  artifactKey: Guid(7b58fff2bf2b6bb49aab4331b5c99e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0005_Layer-150.png using Guid(7b58fff2bf2b6bb49aab4331b5c99e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23647e7c835944e3c0c19745246bd72') in 0.023063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0007_Layer-148.png
+  artifactKey: Guid(a80e879aae0770848a6420608db1e996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0007_Layer-148.png using Guid(a80e879aae0770848a6420608db1e996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5dc789549b7b5bfac91a85c9734646') in 0.025836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0002_Layer-153.png
+  artifactKey: Guid(4b422c6c31d42b848b68a55090d15a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0002_Layer-153.png using Guid(4b422c6c31d42b848b68a55090d15a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d61ed584149bba281002ebd185fd5d1') in 0.022615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0013_Layer-142.png
+  artifactKey: Guid(cf021daf55e5e6047b351aabdf17e8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0013_Layer-142.png using Guid(cf021daf55e5e6047b351aabdf17e8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d8f0ac86760efd376e7d2b8454bb88') in 0.023565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0008_Layer-147.png
+  artifactKey: Guid(5115ec376cca3ab4f9cb0123d3f53093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0008_Layer-147.png using Guid(5115ec376cca3ab4f9cb0123d3f53093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60564185337b59c6afa69691bd3ef4e5') in 0.023396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0012_Layer-143.png
+  artifactKey: Guid(852c1108f3faa7c4aa56d0005cd7a541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Towers/StormIdle/StormIdle_0000s_0012_Layer-143.png using Guid(852c1108f3faa7c4aa56d0005cd7a541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55458a0133f508a98860e9401fb0bd6') in 0.026882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.779146 seconds.
+  path: Assets/Prefabs/Debugging/DebugTile.prefab
+  artifactKey: Guid(b93f7a36f1e4cd048b93021c47e4fad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Debugging/DebugTile.prefab using Guid(b93f7a36f1e4cd048b93021c47e4fad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad0a72c16a09ff569da92fb0783412b') in 0.063143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.289540 seconds.
+  path: Assets/Prefabs/Monster/GreenMonster.prefab
+  artifactKey: Guid(1fe1a9f5ba40824448f34bcd5c36ccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monster/GreenMonster.prefab using Guid(1fe1a9f5ba40824448f34bcd5c36ccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae493be085648b110f6c258f3433f5c') in 0.032853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.562563 seconds.
+  path: Assets/Prefabs/Portals/RedPortal.prefab
+  artifactKey: Guid(51758c96e3510764aa41b3d810703945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Portals/RedPortal.prefab using Guid(51758c96e3510764aa41b3d810703945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4633fcbeaa511ce8038169103f762061') in 0.015714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.819269 seconds.
+  path: Assets/Prefabs/Projectiles/FrostProjectile.prefab
+  artifactKey: Guid(8635b766704a425468df85944ec3e140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/FrostProjectile.prefab using Guid(8635b766704a425468df85944ec3e140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b75c7261170971fc61ebdc079e81894') in 0.011198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.136043 seconds.
+  path: Assets/Prefabs/Tiles/grass_02.prefab
+  artifactKey: Guid(e5bd180a9d0464642b88c7da58afb04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/grass_02.prefab using Guid(e5bd180a9d0464642b88c7da58afb04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568cbd608617f120e0b9fc601d0306f4') in 0.011667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Tiles/grass_04.prefab
+  artifactKey: Guid(01334e4b238cab84dafa18e82eef8736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/grass_04.prefab using Guid(01334e4b238cab84dafa18e82eef8736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003e729d9e349236fa1edf1d0ba75762') in 0.010448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.511591 seconds.
+  path: Assets/Prefabs/Towers/FrostTower.prefab
+  artifactKey: Guid(c72954597b55be9498527ef4c07904b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Towers/FrostTower.prefab using Guid(c72954597b55be9498527ef4c07904b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63ae5de2df604f5c2817896c820ae60') in 0.076123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Towers/Range.png
+  artifactKey: Guid(abfd15c5c59afed44ab68c3960010541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Towers/Range.png using Guid(abfd15c5c59afed44ab68c3960010541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b3f427926b98777b31d13176a0a3df') in 0.011758 seconds 
